@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+
+<main>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">Registration</h2>
+            <hr class="star-primary" />
+            <div class="col-lg-8 col-lg-offset-2">
+                @using (Html.BeginForm("DoRegistration", "Login", FormMethod.Post, new { @class = "form-horizontal" }))
+                {
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" name="AccountName" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="Password" class="form-control" placeholder="Password">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="CarName" class="form-control" placeholder="Car Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" name="CarSpeed" class="form-control" placeholder="Car Speed">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" name="CarCapacity" class="form-control" placeholder="Car Capacity">
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" id="sel1" name="IsHealthy">
+                            <option value="true">Car is healty</option>
+                            <option value="false">Car is not healty</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" class="btn btn-success btn-lg" style="float: right;" value="Register" />
+                    @Html.ActionLink("Back", "Index", "Home", null, new { @class = "btn btn-success btn-lg" })
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+</main>

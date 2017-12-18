@@ -1,0 +1,53 @@
+﻿@using Autobase.Models
+@using Autobase.Models.enums
+
+<div class="container order-details">
+    <div class="row">
+        <div class="modal-body col-lg-8 col-lg-offset-2">
+            @using (Html.BeginForm("CreateOrder", "Order", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+
+                <div class="row">
+                    <h2 class="text-center">Order creation</h2>
+                    <hr class="star-primary" />
+                    <div class="form-group">
+                        <label>Status: </label>
+                        <input type="text" name="Status" class="form-control" value="@TripStatusEnum.WAITING" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label>Name: </label>
+                        <input type="text" class="form-control" name="OrderName">
+                    </div>
+                    <h2 class="text-center">Requirements</h2>
+                    <hr class="star-primary" />
+                    <div class="form-group">
+                        <label>Reqiured Car Speed: </label>
+                        <input type="number" class="form-control" name="RequiredCarSpeed">
+                    </div>
+                    <div class="form-group">
+                        <label>Reqiured Car Capacity: </label>
+                        <input type="number" class="form-control" name="RequiredCarCapacity">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-5">
+                        <button type="button" class="btn btn-default"
+                                data-dismiss="modal">
+                            Cancel
+                        </button>
+                        <input type="submit" id="create-btn"
+                               class="btn btn-danger" value="Create">
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#create-btn').click(function () {
+            $('#modal-container').modal('hide');
+        });
+    });
+</script>

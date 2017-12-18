@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Autobase.App_Context.ApplicationContext" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Context\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.App_Context.DatabaseInitializer" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAAQAAgAAUAAAAAAAAAJAABICAAAiCAgAAA=</HashCode>
+      <FileName>App_Context\DatabaseInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.App_Context.SessionContext" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Context\SessionContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.BundleConfig" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.FilterConfig" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.RouteConfig" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.UnityConfig" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\UnityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.MvcApplication" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAQAAAAAAAAIAQAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.CarController" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAABEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.DispatcherController" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAIAQAAAAAAACAABAAAAAAAAAIAAAAAAAAAAAAAACE=</HashCode>
+      <FileName>Controllers\DispatcherController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.DriverController" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAGA=</HashCode>
+      <FileName>Controllers\DriverController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.FilterController" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\FilterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.HomeController" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAIAAAACAEACAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.LoginController" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAARAAQAAAAAAAAIAAAAgAAAAAAEAAAAEAAA=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Controllers.OrderController" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAAAAAAABAABAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.DAO.MSSQLImpl.MSSQLAccountDAO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAQgAAEAAEAAAAAAAAIAAAA=</HashCode>
+      <FileName>DAO\MSSQLImpl\MSSQLAccountDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.DAO.MSSQLImpl.MSSQLCarDAO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQgAAEAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>DAO\MSSQLImpl\MSSQLCarDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.DAO.MSSQLImpl.MSSQLOrderDAO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQgAAEEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\MSSQLImpl\MSSQLOrderDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.DAO.MSSQLImpl.MSSQLTripDAO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQgAAEAAEAAAAAAAAAgAAA=</HashCode>
+      <FileName>DAO\MSSQLImpl\MSSQLTripDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Models.Account" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAEgAAAACAAAAAAAACAAQAAAAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Models.Car" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAAAAQAAAAAAAACAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Models.Order" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACAAEAAAAAAAAAABAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Models.Trip" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAABAAQIAAAAAgIAAACAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\Trip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Resources.Resource" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAADEAAAAQAAAAAAAAAAAAQAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Services.Filters.FilterImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Filters\FilterImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Services.Impl.AccountServiceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAAIAAAAAAAAAIAAAAACAAACAAQAIA=</HashCode>
+      <FileName>Services\Impl\AccountServiceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Services.Impl.CarServiceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAQAgAAAAAAAIAAAICEAACAAAAAA=</HashCode>
+      <FileName>Services\Impl\CarServiceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Services.Impl.OrderServiceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIA=</HashCode>
+      <FileName>Services\Impl\OrderServiceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Services.Impl.TripServiceImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAAAAAAAgAAAAAAAAAAAQAAAAACAAACAABAEA=</HashCode>
+      <FileName>Services\Impl\TripServiceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Autobase.Utils.RandomUtil" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIgAAAAAAAxAAUAAAAAABABCAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>Utils\RandomUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autobase.Utils.ValidationUtil" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAEAgAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Utils\ValidationUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Autobase.DAO.AccountDAO" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAAgAAEAAEAAAAAAAAIAAAA=</HashCode>
+      <FileName>DAO\AccountDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.DAO.CarDAO" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>DAO\CarDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.DAO.OrderDAO" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\OrderDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.DAO.TripDAO" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAgAAA=</HashCode>
+      <FileName>DAO\TripDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.Services.AccountService" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAQAIA=</HashCode>
+      <FileName>Services\AccountService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.Services.CarService" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Services\CarService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.Services.OrderService" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIA=</HashCode>
+      <FileName>Services\OrderService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.Services.TripService" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAEA=</HashCode>
+      <FileName>Services\TripService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Autobase.Services.Filters.Filter" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Filters\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Autobase.Models.enums.Role" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\enums\Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Autobase.Models.enums.TripStatusEnum" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\enums\TripStatusEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
